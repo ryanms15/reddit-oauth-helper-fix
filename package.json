@@ -1,9 +1,9 @@
 {
-  "name": "reddit-oauth-helper",
-  "version": "0.3.0",
-  "description": "A quick, intuitive script that creates reddit oauth tokens for you",
+  "name": "reddit-oauth-helper-fix",
+  "version": "0.3.1",
+  "description": "A quick, intuitive script that creates reddit oauth tokens for you, fixed for 30-character limit",
   "bin": {
-    "reddit-oauth-helper": "node-server.js"
+    "reddit-oauth-helper-fix": "node-server.js"
   },
   "scripts": {
     "lint": "eslint index.js browser.jsx",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/not-an-aardvark/reddit-oauth-helper.git"
+    "url": "git+https://github.com/ryanms15/reddit-oauth-helper-fix.git"
   },
   "keywords": [
     "reddit",
     "oauth2",
     "api"
   ],
-  "author": "not-an-aardvark",
+  "author": "ryanms15",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/not-an-aardvark/reddit-oauth-helper/issues"
+    "url": "https://github.com/ryanms15/reddit-oauth-helper-fix/issues"
   },
-  "homepage": "https://github.com/not-an-aardvark/reddit-oauth-helper#readme",
+  "homepage": "https://github.com/ryanms15/reddit-oauth-helper-fix#readme",
   "dependencies": {
     "inquirer": "^1.1.2",
     "open": "^7.0.0",
